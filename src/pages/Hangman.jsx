@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { randomWord } from "../components/Words.jsx";
-import CustomButton from "../components/CustomButton";
 import img1 from "../components/images/4.jpg";
 import img2 from "../components/images/5.jpg";
 import img3 from "../components/images/6.jpg";
@@ -38,7 +37,7 @@ class Hangman extends Component {
     }
   
     generateButtons() {
-      return "abcdefghjklmnopqrstuvwxyz".split("").map(letter => (
+      return "abcdefghijklmnopqrstuvwxyz".split("").map(letter => (
         <button
           class='btn btn-lg btn-primary m-2'
           key={letter}
