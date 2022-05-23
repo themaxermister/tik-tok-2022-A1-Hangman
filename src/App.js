@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import './css/App.css';
+import './css/misc.css';
+import Start from "./pages/Start";
+import Leaderboard from "./pages/Leaderboard";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    rank_score : [
+      {rank: 1, name:'John', score: 10},
+      {rank: 2, name:'Mary', score: 10},
+      {rank: 3, name:'Charles', score: 10},
+      {rank: 4, name:'', score: 0},
+      {rank: 5, name:'', score: 0}
+    ]
+  };
+  render(){
+    return (
+      //<Leaderboard rankScore={this.state.rank_score} />
+      <Start />
+    );
+  }
 }
 
 export default App;
