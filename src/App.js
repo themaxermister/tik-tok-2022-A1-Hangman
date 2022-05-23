@@ -3,6 +3,7 @@ import './css/App.css';
 import './css/misc.css';
 import Start from "./pages/Start";
 import Leaderboard from "./pages/Leaderboard";
+import Hangman from "./pages/Hangman";
 
 class App extends Component {
   state = {
@@ -17,7 +18,8 @@ class App extends Component {
   render(){
     return (
       //<Start />
-      <Leaderboard rankScore={this.state.rank_score} />
+      //<Leaderboard rankScore={this.state.rank_score} />
+      <Hangman />
     );
   }
 }
