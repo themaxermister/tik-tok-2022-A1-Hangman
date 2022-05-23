@@ -16,8 +16,8 @@ class App extends Component {
   };
   render(){
     return (
-      //<Leaderboard rankScore={this.state.rank_score} />
-      <Start />
+      //<Start />
+      <Leaderboard rankScore={this.state.rank_score} />
     );
   }
 }

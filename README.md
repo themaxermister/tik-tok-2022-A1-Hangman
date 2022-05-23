@@ -1,3 +1,15 @@
+# Project Structure
+
+## Program Flow Per Page
+
+FINAL <- Apply required css Folder <- App.js <- pages folder (1 file) <- components folder (Unlimited)
+
+## css Folder
+
+App.css -> Page specific CSS
+misc.css -> General css
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

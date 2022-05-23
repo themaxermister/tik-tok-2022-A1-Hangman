@@ -4,7 +4,7 @@ import ScoreTable from "../components/ScoreTable";
 
 class Leaderboard extends Component {
     render() {
-    const { rankScore } = this.props;
+    const { rankScore } = this.props; // Saved state of score data
 
     return (
       <main id="leaderboard-page">

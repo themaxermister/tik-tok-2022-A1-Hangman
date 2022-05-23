@@ -1,6 +1,7 @@
 import React from "react";
 
 const getButtonType = (type) => {
+  // Change with Kenny's CSS class codes
   if (type === "pri") {
     return "btn btn-primary btn-lg";
   } else if (type === "sec") {

@@ -1,6 +1,7 @@
 import React from "react";
 
 const checkTitle = (rank, name, score, title ) => {
+    // Check if row is title row or not
     if (title === 'true'){
         return (
             <React.Fragment>
@@ -11,6 +12,7 @@ const checkTitle = (rank, name, score, title ) => {
         )
     }
     else{
+        // Check if row is score row or not
         return (
             <React.Fragment>
             <div className="cell rank">{rank}</div>
@@ -21,6 +23,8 @@ const checkTitle = (rank, name, score, title ) => {
     }
     
 }
+
+// Generate row in table
 
 const ScoreRow = ({ rank, name, score, title }) => {
   //console.log("#" + rank + " Score Row - Rendered");
