@@ -1,5 +1,5 @@
 var words = [
-	  "apple",
+	"apple",
     "banana",
     "kiwifruit",
     "orange",

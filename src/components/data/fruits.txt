@@ -1,0 +1,11 @@
+apple
+banana
+kiwifruit
+orange
+durian
+watermelon
+guava
+papaya
+grape
+persimmon
+persimmon
