@@ -8,7 +8,11 @@ const ScoreTable = ({ tableName, rankScore }) => {
     <div id={tableName}>
       <div className="grid-container">
         <ScoreRow rank="Rank" name="Name" score="Score" title='true' />
-        { rankScore.map(function(scoreRow) { if (scoreRow.name.length > 0) return <ScoreRow key={rankScore.indexOf(scoreRow)} rank={scoreRow.rank} name={scoreRow.name}score="10" title={scoreRow.title}/>; })}
+        { rankScore.map(function(scoreRow) { 
+          if (scoreRow.name.length > 0)
+            return <ScoreRow key={rankScore.indexOf(scoreRow)} rank={scoreRow.rank} name={scoreRow.name}score="10" title={scoreRow.title}/>; 
+          return null;
+        })}
       </div>
     </div>
   );

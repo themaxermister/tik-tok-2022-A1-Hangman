@@ -10,12 +10,19 @@ const getButtonType = (type) => {
   return "none";
 };
 
-const CustomButton = ({ id, type, text }) => {
+const getButtonClick = (onClick) => {
+  if (onClick === "None"){
+    return null;
+  }
+  return onClick
+}
+
+const CustomButton = ({ id, type, text, onClick }) => {
   //console.log("CustomButton - Rendered");
 
   return (
     <React.Fragment>
-      <button id={id} className={getButtonType(type)}>{text}</button>
+      <button id={id} className={getButtonType(type)} onClick={getButtonClick(onClick)}>{text}</button>
     </React.Fragment>
   );
 };

@@ -1,4 +1,5 @@
 
+Simple Hangman game created using ReactJS.
 
 
 
