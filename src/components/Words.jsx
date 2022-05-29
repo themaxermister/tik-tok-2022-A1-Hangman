@@ -4,7 +4,12 @@ var words = [
     "kiwifruit",
     "orange",
     "durian",
-    "watermelon"
+    "watermelon",
+    "guava",
+    "papaya",
+    "grape",
+    "strawberry",
+    "persimmon"
 ]
 
 function randomWord() {
