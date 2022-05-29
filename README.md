@@ -1,14 +1,6 @@
-# Project Structure
+# Hangman Game
 
-## Program Flow Per Page
-
-FINAL <- Apply required css Folder <- App.js <- pages folder (1 file) <- components folder (Unlimited)
-
-## css Folder
-
-App.css -> Page specific CSS
-misc.css -> General css
-
+Simple Hangman game created using ReactJS.
 
 # Getting Started with Create React App
 
@@ -80,3 +72,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Authors
+
+* **Alvin Joseph** - [TheNuc1ear](https://github.com/TheNuc1ear)
+* **Jobelle Lee** - [themaxermister](https://github.com/themaxermister)
+* **Kenny Ong Ker Chin** - [cannotknee](https://github.com/cannotknee)
