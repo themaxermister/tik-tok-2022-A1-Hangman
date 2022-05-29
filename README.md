@@ -8,7 +8,7 @@ A simple web-based hangman game developed for TikTok Camp 2022.
    
 2. Run ```npm start``` in project directory to start application
 
-3. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
+3. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Technologies Used
 
