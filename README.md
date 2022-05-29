@@ -4,7 +4,7 @@ A simple web-based hangman game developed for TikTok Camp 2022.
 
 ## Running the application
 
-1. Run ``npm install``` in project directory to install dependencies
+1. Run ```npm install``` in project directory to install dependencies
    
 2. Run ```npm start``` in project directory to start application
 
