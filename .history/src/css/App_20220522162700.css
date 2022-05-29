@@ -1,0 +1,46 @@
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Start Page */
+#start-page {
+  justify-content: center;
+}
+
+#start-title{
+  font-size: 10vw;
+  margin: 100px;
+}
+
+#start-page > #button-row > button {
+  width: 20%;
+  margin: 20px;
+}
+
+/* Leaderboard Page */
+#leaderboard-page {
+  justify-content: top;
+}
+
+.sub-title{
+  font-size: 5vw;
+  margin: 50px;
+}
+
+#leaderboard-table 
+
+#leaderboard-table > .grid-container {
+  display: grid;
+  gap: 40%;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#leaderboard-table > .grid-container  > .cell {
+  padding: 10px;
+}
+
+

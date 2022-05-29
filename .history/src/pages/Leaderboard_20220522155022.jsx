@@ -1,0 +1,17 @@
+import React, { Component } from "react";
+import CustomButton from "../components/CustomButton";
+
+class Leaderboard extends Component {
+  state = {};
+
+  render() {
+    return (
+      <main id="start-page">
+        <React.Fragment>
+        </React.Fragment>
+      </main>
+    );
+  }
+}
+
+export default Leaderboard;
